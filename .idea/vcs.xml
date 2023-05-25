@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Two timer from ben/two-timer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bottom navigation/Bottom_Navigation_Jetpack_Compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/composed morse code from ben/morse-code-compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/connect440 from ben/connect-440" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/connect440composed from ben/connect-440-compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/countdown/android-dev-challenge-compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/layouts/android-compose-codelabs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/navtest from ben/nav-test" vcs="Git" />
   </component>
 </project>
