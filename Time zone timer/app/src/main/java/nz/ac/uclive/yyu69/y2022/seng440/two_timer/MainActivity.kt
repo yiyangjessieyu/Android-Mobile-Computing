@@ -27,7 +27,7 @@ private lateinit var updateTask: Runnable
 private fun syncTimes() {
     val formatter = SimpleDateFormat("d MMMM HH:mm")
     val today = Calendar.getInstance()
-    
+
     var timeZone = TimeZone.getTimeZone(picker1.selectedItem.toString())
     formatter.timeZone = timeZone
    // picker1.text = timeZone.displayName
@@ -85,6 +85,10 @@ class MainActivity : AppCompatActivity() {
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, timeZones)
         picker1.adapter = adapter
         picker2.adapter = adapter
+
+        picker1.setSelection(timeZones.indexOf("Pacific/Auckland"))
+        picker2.setSelection(timeZones.indexOf("America/Chicago"))
+
 
     }
 
